@@ -26,7 +26,17 @@ answer, including your reasoning, to this markdown file.
 
 ## Answer
 
-###Sources:
+My for loop that is setting initial  distances to nodes runs $|V|$ times. My while loop will also run $|V|$ times. 
+
+The most expensive operation inside my while loop is the standard sort() function, which is generally $|VlogV|$. My while loop is $|V*VlogV|$ which equals $|V^2logV|$.
+
+Also, for each vertext that is procesed, all adjacent edges are checked. This is $|E|$ time.
+
+
+
+I now have $|V| + |V^2logV| + |E| ∈ |\Theta V^2logV|$
+
+###Sources
 
 Based my tests off this test code https://github.com/COSC3020/dijkstra-s-algorithm-NolanNachbar/blob/NolanNachbar-patch-1/code.test.js
 
