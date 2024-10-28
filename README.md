@@ -30,7 +30,7 @@ My for loop that is setting initial  distances to nodes runs $|V|$ times. My whi
 
 The most expensive operation inside my while loop is the standard sort() function, which is generally $|VlogV|$. My while loop is $|V*VlogV|$ which equals $|V^2logV|$.
 
-Also, for each vertext that is procesed, all adjacent edges are checked. This is $|E|$ time.
+Also, for each vertext that is processed, all adjacent edges are checked. This is $|E|$ time.
 
 
 
